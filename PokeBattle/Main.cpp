@@ -14,6 +14,11 @@ int main()
 
 	Pokemon Charmeleon("Headbutt", 10, "Fire Flare", 30, 2, 15, 600, "Charmeleon", "Fire", "Water", "Lightning");
 
+	std::cout << "Pikachu begint eerst" << std::endl;
+	int* data = Pikachu.GiveData();
+	int o = *data;
+	std::cout << &o[2];
+
 	return 0;
 
 }

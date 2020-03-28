@@ -25,13 +25,15 @@ public:
 		std::string weakness,
 		std::string resistance
 		);
+
+	int* GiveData();
 private:
 	int HealthPoints;
 
 	std::string Name;
-	EnergyType EnergyType;
-	Weakness Weakness;
-	Resistance Resistance;
+	EnergyType energyType;
+	Weakness weakness;
+	Resistance resistance;
 	Attack Attack1;
 	Attack Attack2;
 

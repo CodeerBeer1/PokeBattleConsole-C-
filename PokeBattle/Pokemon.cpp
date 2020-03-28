@@ -1,4 +1,7 @@
 #include <iostream>
+#include <Vector>
+#include <variant>
+#include <string>
 
 #include "Pokemon.h"
 
@@ -18,9 +21,9 @@ Pokemon::Pokemon(
 	std::string resistance
 	)
 	:
-	EnergyType{ energy_type },
-	Weakness{ weakness, weakness_multiplier },
-	Resistance{ resistance, resistance_value },
+	energyType{ energy_type },
+	weakness{ weakness, weakness_multiplier },
+	resistance{ resistance, resistance_value },
 	Attack1{attack_1_name, attack_1_damage},
 	Attack2{attack_2_name, attack_2_damage}
 {
@@ -28,4 +31,25 @@ Pokemon::Pokemon(
 	this->Name = name;
 	this->HealthPoints = max_health_points;
 
-};
+}
+
+int* Pokemon::GiveData()
+{
+	using namespace std;
+
+	variant<int, std::string, EnergyType, Weakness, Resistance, Attack> Data[] =
+	{
+		HealthPoints,
+		Name,
+		energyType,
+		weakness,
+		resistance,
+		Attack1,
+		Attack2
+	};
+	
+	void* ptr = &Data;
+	int* conv = reinterpret_cast<int*> (ptr);
+
+	return conv;
+}
