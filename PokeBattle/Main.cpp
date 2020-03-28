@@ -6,10 +6,13 @@
 
 int main()
 {
+	long tempInput;
+	std::cout << "Typ iets en druk op enter om te beginnen" << std::endl;
+	std::cin >> tempInput;
 
-	Pokemon Pikachu(1.5, 20, 500, "Pikachu", "Lightning", "Fire", "Water");
+	Pokemon Pikachu("Electric Ring" , 50, "Pika Punch", 20, 1.5, 20, 500, "Pikachu", "Lightning", "Fire", "Fighting");
 
-	Pokemon Charmeleon(2, 15, 600, "Charmeleon", "Fire", "Water", "Lightning");
+	Pokemon Charmeleon("Headbutt", 10, "Fire Flare", 30, 2, 15, 600, "Charmeleon", "Fire", "Water", "Lightning");
 
 	return 0;
 

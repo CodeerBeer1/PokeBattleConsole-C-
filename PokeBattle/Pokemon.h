@@ -5,13 +5,25 @@
 #include "EnergyType.h"
 #include "Weakness.h"
 #include "Resistance.h"
+#include "Attack.h"
 
 class Pokemon
 {
 public:
 	Pokemon(
-int weakness_multiplier, int resistance_value, int max_health_points, std::string name, std::string energy_type,
-std::string weakness, std::string resistance
+		std::string attack_1_name,
+		int attack_1_damage,
+		std::string attack_2_name,
+		int attack_2_damage,
+
+		double weakness_multiplier,
+		double resistance_value,
+		int max_health_points,
+
+		std::string name,
+		std::string energy_type,
+		std::string weakness,
+		std::string resistance
 		);
 private:
 	int HealthPoints;
@@ -20,5 +32,7 @@ private:
 	EnergyType EnergyType;
 	Weakness Weakness;
 	Resistance Resistance;
+	Attack Attack1;
+	Attack Attack2;
 
 };
