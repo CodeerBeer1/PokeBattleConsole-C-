@@ -1,5 +1,4 @@
 #include <iostream>
-#include <variant>
 
 #include "Pokemon.h"
 
@@ -7,9 +6,9 @@
 
 int main()
 {
-	//long tempInput;
-	//std::cout << "Typ iets en druk op enter om te beginnen" << std::endl;
-	//std::cin >> tempInput;
+	long tempInput;
+	std::cout << "Typ iets en druk op enter om te beginnen" << std::endl;
+	std::cin >> tempInput;
 
 	bool Flag = false;
 

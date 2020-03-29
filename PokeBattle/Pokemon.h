@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <limits.h>
 
 #include "EnergyType.h"
 #include "Weakness.h"
