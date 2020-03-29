@@ -30,6 +30,7 @@ public:
 	std::string GiveEnergyType() const;
 
 	Weakness GiveWeakness() const;
+	Resistance GiveResistance() const;
 
 	bool AttackPokemon(Pokemon& enemy, bool flag);
 

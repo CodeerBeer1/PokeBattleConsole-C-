@@ -51,6 +51,11 @@ Weakness Pokemon::GiveWeakness() const
 	return weakness;
 }
 
+Resistance Pokemon::GiveResistance() const
+{
+	return resistance;
+}
+
 bool Pokemon::AttackPokemon(Pokemon& enemy, bool flag)
 {
 	if (HealthPoints > 0)
@@ -64,6 +69,11 @@ bool Pokemon::AttackPokemon(Pokemon& enemy, bool flag)
 			if (energyType.Name == enemy.GiveWeakness().Name)
 			{
 				enemy.HealthPoints = enemy.HealthPoints - Attack1.Damage * enemy.GiveWeakness().Multiplier;
+			}
+
+			if (energyType.Name == enemy.GiveResistance().Name)
+			{
+				enemy.HealthPoints = enemy.HealthPoints - Attack1.Damage - enemy.GiveResistance().Value;
 			}
 
 			else

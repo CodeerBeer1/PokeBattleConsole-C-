@@ -2,19 +2,13 @@
 
 #include "Pokemon.h"
 
-
-
-int main()
+void start()
 {
-	long tempInput;
-	std::cout << "Typ iets en druk op enter om te beginnen" << std::endl;
-	std::cin >> tempInput;
-
 	bool Flag = false;
 
-	Pokemon Pikachu("Electricring" , 50, "Pikapunch", 20, 1.5, 20, 500, "Pikachu", "Lightning", "Fire", "Fighting");
+	Pokemon Pikachu("electricring", 150, "pikapunch", 120, 1.5, 20, 500, "Pikachu", "Lightning", "Fire", "Fighting");
 
-	Pokemon Charmeleon("Headbutt", 10, "Fireflare", 30, 2, 15, 500, "Charmeleon", "Fire", "Water", "Lightning");
+	Pokemon Charmeleon("headbutt", 110, "fireflare", 130, 2, 15, 500, "Charmeleon", "Fire", "Water", "Lightning");
 
 	while (!Flag)
 	{
@@ -23,6 +17,14 @@ int main()
 		std::cout << "Charmeleon's Turn:\n" << Charmeleon.HealthPoints << " HP\n" << Charmeleon.GiveAttack1() << "\n" << Charmeleon.GiveAttack2() << std::endl;
 		Flag = Charmeleon.AttackPokemon(Pikachu, Flag);
 	}
+}
+
+int main()
+{
+	long tempInput;
+	std::cout << "Dit is de PokeBattle\nEr zijn 2 Pokemons, Charmeleon en Pikachu; en ze gaan met elkaar vechten\nTyp je attacks precies zoals ze in de statistieken zijn\n" << std::endl;
+
+	start();
 
 	return 0;
 
