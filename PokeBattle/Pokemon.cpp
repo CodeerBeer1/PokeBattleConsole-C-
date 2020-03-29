@@ -33,23 +33,73 @@ Pokemon::Pokemon(
 
 }
 
-int* Pokemon::GiveData()
+std::string Pokemon::GiveAttack1() const
 {
-	using namespace std;
+	return Attack1.Name;
+}
 
-	variant<int, std::string, EnergyType, Weakness, Resistance, Attack> Data[] =
+std::string Pokemon::GiveAttack2() const
+{
+	return Attack2.Name;
+}
+
+std::string Pokemon::GiveEnergyType() const
+{
+	return energyType.Name;
+}
+
+Weakness Pokemon::GiveWeakness() const
+{
+	return weakness;
+}
+
+bool Pokemon::AttackPokemon(Pokemon& enemy, bool flag)
+{
+	if (HealthPoints > 0)
 	{
-		HealthPoints,
-		Name,
-		energyType,
-		weakness,
-		resistance,
-		Attack1,
-		Attack2
-	};
-	
-	void* ptr = &Data;
-	int* conv = reinterpret_cast<int*> (ptr);
+		std::cout << "Attack: ";
+		std::string input;
+		std::cin >> input;
 
-	return conv;
+		if (input == Attack1.Name)
+		{
+			if (energyType.Name == enemy.GiveWeakness().Name)
+			{
+				enemy.HealthPoints = enemy.HealthPoints - Attack1.Damage * enemy.GiveWeakness().Multiplier;
+			}
+
+			else
+			{
+				enemy.HealthPoints = enemy.HealthPoints - Attack1.Damage;
+			}
+		}
+
+		if (input == Attack2.Name)
+		{
+			if (energyType.Name == enemy.GiveWeakness().Name)
+			{
+				enemy.HealthPoints = enemy.HealthPoints - Attack2.Damage * enemy.GiveWeakness().Multiplier;
+			}
+
+			else
+			{
+				enemy.HealthPoints = enemy.HealthPoints - Attack2.Damage;
+			}
+		}
+
+		else if (input != Attack1.Name && input != Attack2.Name)
+		{
+			std::cout << "Kies een van de bovenstaande attacks\n";
+			AttackPokemon(enemy, flag);
+		}
+
+		std::cout << "\n";
+	}
+
+	else
+	{
+		flag = true;
+	}
+
+	return flag;
 }

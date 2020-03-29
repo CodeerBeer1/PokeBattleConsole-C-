@@ -1,2 +1,4 @@
-﻿  Main.cpp
+﻿  Pokemon.cpp
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.cpp(68,45): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.cpp(81,45): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   PokeBattle.vcxproj -> C:\Users\Khize\source\repos\PokeBattleConsole-C++\x64\Debug\PokeBattle.exe

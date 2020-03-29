@@ -26,10 +26,16 @@ public:
 		std::string resistance
 		);
 
-	int* GiveData();
-private:
-	int HealthPoints;
+	std::string GiveAttack1() const;
+	std::string GiveAttack2() const;
+	std::string GiveEnergyType() const;
 
+	Weakness GiveWeakness() const;
+
+	bool AttackPokemon(Pokemon& enemy, bool flag);
+
+	int HealthPoints;
+private:
 	std::string Name;
 	EnergyType energyType;
 	Weakness weakness;
