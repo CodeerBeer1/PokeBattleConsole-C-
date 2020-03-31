@@ -37,8 +37,7 @@ void start()
 
 int main()
 {
-	long tempInput;
-	std::cout << "Dit is de PokeBattle\nEr zijn 2 Pokemons, Charmeleon en Pikachu; en ze gaan met elkaar vechten\nTyp je attacks precies zoals ze in de statistieken zijn\n" << std::endl;
+	std::cout << "Dit is de PokeBattle\nEr zijn 2 Pokemons, Charmeleon en Pikachu; en ze gaan met elkaar vechten\nTyp je attacks precies in zoals ze bij de statistieken zijn weergegeven\n" << std::endl;
 
 	start();
 
