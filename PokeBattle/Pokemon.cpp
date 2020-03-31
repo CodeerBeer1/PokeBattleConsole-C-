@@ -56,7 +56,7 @@ Resistance Pokemon::GiveResistance() const
 	return resistance;
 }
 
-bool Pokemon::AttackPokemon(Pokemon& enemy, bool flag)
+void Pokemon::AttackPokemon(Pokemon& enemy) const
 {
 	if (HealthPoints > 0)
 	{
@@ -98,16 +98,15 @@ bool Pokemon::AttackPokemon(Pokemon& enemy, bool flag)
 		else if (input != Attack1.Name && input != Attack2.Name)
 		{
 			std::cout << "Kies een van de bovenstaande attacks\n";
-			AttackPokemon(enemy, flag);
+			AttackPokemon(enemy);
 		}
 
 		std::cout << "\n";
 	}
 
-	else
+	if (enemy.HealthPoints <= 0)
 	{
-		flag = true;
+		enemy.Status = false;
+		std::cout << enemy.Name << " fainted. "<< Name << " is de winnaar!";
 	}
-
-	return flag;
 }

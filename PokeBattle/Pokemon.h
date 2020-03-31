@@ -32,7 +32,8 @@ public:
 	Weakness GiveWeakness() const;
 	Resistance GiveResistance() const;
 
-	bool AttackPokemon(Pokemon& enemy, bool flag);
+	void AttackPokemon(Pokemon& enemy) const;
+	bool Status = true;
 
 	int HealthPoints;
 private:
