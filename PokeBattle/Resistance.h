@@ -5,6 +5,6 @@ struct Resistance
 {
 
 	std::string Name;
-	double Value;
+	int Multiplier;
 
 };

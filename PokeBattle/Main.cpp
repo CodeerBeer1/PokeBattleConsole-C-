@@ -1,21 +1,22 @@
 #include <iostream>
 
 #include "Pokemon.h"
+#include "Pikachu.h"
 
 void start()
 {
 
 	bool Flag = false;
 
-	Pokemon Pikachu("electricring", 150, "pikapunch", 110, 1.5, 20, 500, "Pikachu", "Lightning", "Fire", "Fighting");
+	Pikachu Pikachu("electricring", 80, "pikapunch", 60);
 
-	Pokemon Charmeleon("headbutt", 110, "fireflare", 130, 2, 15, 500, "Charmeleon", "Fire", "Water", "Lightning");
+	Charmeleon Charmeleon("headbutt", 60, "fireflare", 50);
 
 	while (!Flag)
 	{
 		if (Pikachu.Status)
 		{
-			std::cout << "Pikachu's Turn:\n" << Pikachu.HealthPoints << " HP\n" << Pikachu.GiveAttack1() << "\n" << Pikachu.GiveAttack2() << std::endl;
+			std::cout << "Pikachu's Turn:\n" << Pikachu.GetHP() << " HP\n" << Pikachu.GiveElectricRing() << "\n" << Pikachu.GivePikaPunch() << std::endl;
 			Pikachu.AttackPokemon(Charmeleon);
 			if (!Charmeleon.Status)
 			{
@@ -25,7 +26,7 @@ void start()
 
 		if (Charmeleon.Status)
 		{
-			std::cout << "Charmeleon's Turn:\n" << Charmeleon.HealthPoints << " HP\n" << Charmeleon.GiveAttack1() << "\n" << Charmeleon.GiveAttack2() << std::endl;
+			std::cout << "Charmeleon's Turn:\n" << Charmeleon.GetHP() << " HP\n" << Charmeleon.GiveHeadButt() << "\n" << Charmeleon.GiveFireFlare() << std::endl;
 			Charmeleon.AttackPokemon(Pikachu);
 			if (!Pikachu.Status)
 			{

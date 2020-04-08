@@ -5,6 +5,6 @@ struct Weakness
 {
 
 	std::string Name;
-	double Multiplier;
+	int Multiplier;
 
 };

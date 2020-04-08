@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 
+#include "Pikachu.h"
+#include "Charmeleon.h"
 #include "EnergyType.h"
 #include "Weakness.h"
 #include "Resistance.h"
@@ -8,15 +10,19 @@
 
 class Pokemon
 {
+protected:
+	double HealthPoints;
+
+	std::string Name;
+	EnergyType energyType;
+	Weakness weakness;
+	Resistance resistance;
+
 public:
 	Pokemon(
-		std::string attack_1_name,
-		int attack_1_damage,
-		std::string attack_2_name,
-		int attack_2_damage,
 
-		double weakness_multiplier,
-		double resistance_value,
+		int weakness_multiplier,
+		int resistance_multiplier,
 		int max_health_points,
 
 		std::string name,
@@ -25,23 +31,16 @@ public:
 		std::string resistance
 		);
 
-	std::string GiveAttack1() const;
-	std::string GiveAttack2() const;
+
+	bool Status = true;
+
 	std::string GiveEnergyType() const;
+	std::string GiveName();
+
+	int GetHP();
+	void ReduceHP(int damage, int multiplier);
 
 	Weakness GiveWeakness() const;
 	Resistance GiveResistance() const;
-
-	void AttackPokemon(Pokemon& enemy) const;
-	bool Status = true;
-
-	int HealthPoints;
-private:
-	std::string Name;
-	EnergyType energyType;
-	Weakness weakness;
-	Resistance resistance;
-	Attack Attack1;
-	Attack Attack2;
 
 };
