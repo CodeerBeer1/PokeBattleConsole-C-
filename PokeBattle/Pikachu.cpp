@@ -35,6 +35,7 @@ void Pikachu::AttackPokemon(Charmeleon& enemy)
 
 		if (input == ElectricRing.Name)
 		{
+			
 			if (energyType.Name == enemy.GiveWeakness().Name)
 			{
 				enemy.ReduceHP(ElectricRing.Damage, enemy.GiveWeakness().Multiplier);

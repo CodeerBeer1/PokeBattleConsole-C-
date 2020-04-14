@@ -18,13 +18,13 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pokemon.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="Pikachu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Charmeleon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

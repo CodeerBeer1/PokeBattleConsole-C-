@@ -2,7 +2,7 @@
 
 Charmeleon::Charmeleon(std::string head_butt_string, int head_butt_damage, std::string fire_flare_string, int fire_flare_damage)
 	:
-	Pokemon(2, 1, 500, "Pikachu", "Lightning", "Fire", "Fighting"),
+	Pokemon(2, 1, 500, "Charmeleon", "Fire", "Water", "Lightning"),
 	HeadButt{ head_butt_string, head_butt_damage },
 	FireFlare{ fire_flare_string, fire_flare_damage }
 {

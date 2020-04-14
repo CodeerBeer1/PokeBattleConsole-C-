@@ -1,6 +1,10 @@
 #pragma once
+
 #include "Pokemon.h"
 #include "Charmeleon.h"
+#include "Attack.h"
+
+class Charmeleon;
 
 class Pikachu : public Pokemon
 {
@@ -9,11 +13,7 @@ class Pikachu : public Pokemon
 	Attack PikaPunch;
 
 public:
-	std::string GiveElectricRing() const;
-	std::string GivePikaPunch() const;
-
-	void AttackPokemon(Charmeleon& enemy);
-
+	
 	Pikachu(
 
 		std::string electric_ring_string,
@@ -21,5 +21,10 @@ public:
 		std::string pika_punch_string,
 		int pika_punch_damage
 	);
+
+	std::string GiveElectricRing() const;
+	std::string GivePikaPunch() const;
+
+	void AttackPokemon(Charmeleon& enemy);
 
 };

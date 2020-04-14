@@ -1,122 +1,74 @@
 ﻿  Charmeleon.cpp
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(6,1): error C2504: 'Pokemon': base class undefined
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,21): error C3646: 'ElectricRing': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(9,18): error C3646: 'PikaPunch': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(9,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(15,31): error C2061: syntax error: identifier 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(31,7): error C2039: 'GiveWeakness': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(33,19): error C2039: 'ReduceHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(33,55): error C2039: 'GiveWeakness': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(36,7): error C2039: 'GiveResistance': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(38,19): error C2039: 'ReduceHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(38,57): error C2039: 'GiveResistance': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(43,19): error C2039: 'ReduceHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(49,7): error C2039: 'GiveWeakness': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(51,19): error C2039: 'ReduceHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(51,56): error C2039: 'GiveWeakness': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(54,7): error C2039: 'GiveResistance': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(56,19): error C2039: 'ReduceHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(56,58): error C2039: 'GiveResistance': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(61,19): error C2039: 'ReduceHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(74,5): error C2039: 'GetHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(76,16): error C2039: 'Status': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(77,30): error C2039: 'GiveName': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.cpp(1,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.h(2,16): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,1): error C2504: 'Pokemon': base class undefined
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(10,21): error C3646: 'ElectricRing': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(10,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(11,18): error C3646: 'PikaPunch': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(11,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(17,28): error C2061: syntax error: identifier 'Pokemon'
   Main.cpp
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(6,1): error C2504: 'Pokemon': base class undefined
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7,17): error C3646: 'HeadButt': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,18): error C3646: 'FireFlare': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(14,28): error C2061: syntax error: identifier 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(6,1): error C2504: 'Pokemon': base class undefined
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,21): error C3646: 'ElectricRing': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(9,18): error C3646: 'PikaPunch': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(9,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(17,21): error C2039: 'Status': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(19,53): error C2039: 'GetHP': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(21,26): error C2039: 'Status': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(27,24): error C2039: 'Status': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(29,59): error C2039: 'GetHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(30,36): error C2660: 'Charmeleon::AttackPokemon': function does not take 1 arguments
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(14,7): message : see declaration of 'Charmeleon::AttackPokemon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(31,23): error C2039: 'Status': is not a member of 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(5): message : see declaration of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(1,16): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.h(2,16): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,1): error C2504: 'Pokemon': base class undefined
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(9,17): error C3646: 'HeadButt': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(9,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(10,18): error C3646: 'FireFlare': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(10,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(16,28): error C2061: syntax error: identifier 'Pokemon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,1): error C2504: 'Pokemon': base class undefined
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(10,21): error C3646: 'ElectricRing': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(10,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(11,18): error C3646: 'PikaPunch': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(11,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(17,28): error C2061: syntax error: identifier 'Pokemon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(18,21): error C2039: 'Status': is not a member of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(7): message : see declaration of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(20,53): error C2039: 'GetHP': is not a member of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(7): message : see declaration of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(21,36): error C2660: 'Pikachu::AttackPokemon': function does not take 1 arguments
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(17,7): message : see declaration of 'Pikachu::AttackPokemon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(22,26): error C2039: 'Status': is not a member of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7): message : see declaration of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(28,24): error C2039: 'Status': is not a member of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7): message : see declaration of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(30,59): error C2039: 'GetHP': is not a member of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7): message : see declaration of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(31,36): error C2660: 'Charmeleon::AttackPokemon': function does not take 1 arguments
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(16,7): message : see declaration of 'Charmeleon::AttackPokemon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Main.cpp(32,23): error C2039: 'Status': is not a member of 'Pikachu'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(7): message : see declaration of 'Pikachu'
   Pikachu.cpp
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(6,1): error C2504: 'Pokemon': base class undefined
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7,17): error C3646: 'HeadButt': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,18): error C3646: 'FireFlare': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(14,28): error C2061: syntax error: identifier 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(38,7): error C2039: 'GiveWeakness': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(40,19): error C2039: 'ReduceHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(40,59): error C2039: 'GiveWeakness': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(43,7): error C2039: 'GiveResistance': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(45,19): error C2039: 'ReduceHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(45,61): error C2039: 'GiveResistance': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(50,19): error C2039: 'ReduceHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(56,7): error C2039: 'GiveWeakness': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(58,19): error C2039: 'ReduceHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(58,56): error C2039: 'GiveWeakness': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(61,7): error C2039: 'GiveResistance': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(63,19): error C2039: 'ReduceHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(63,58): error C2039: 'GiveResistance': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(68,19): error C2039: 'ReduceHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(81,5): error C2039: 'GetHP': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(83,16): error C2039: 'Status': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(84,30): error C2039: 'GiveName': is not a member of 'Charmeleon'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(5): message : see declaration of 'Charmeleon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.cpp(1,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.h(2,16): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,1): error C2504: 'Pokemon': base class undefined
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(9,17): error C3646: 'HeadButt': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(9,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(10,18): error C3646: 'FireFlare': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(10,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(16,28): error C2061: syntax error: identifier 'Pokemon'
   Pokemon.cpp
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(6,1): error C2504: 'Pokemon': base class undefined
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7,17): error C3646: 'HeadButt': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(7,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,18): error C3646: 'FireFlare': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(14,28): error C2061: syntax error: identifier 'Pikachu'
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(6,1): error C2504: 'Pokemon': base class undefined
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,21): error C3646: 'ElectricRing': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(9,18): error C3646: 'PikaPunch': unknown override specifier
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(9,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.cpp(38,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.cpp(1,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.h(2,16): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(2,17): warning C4081: expected '('; found 'newline'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(8,1): error C2504: 'Pokemon': base class undefined
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(9,17): error C3646: 'HeadButt': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(9,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(10,18): error C3646: 'FireFlare': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(10,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Charmeleon.h(16,28): error C2061: syntax error: identifier 'Pokemon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(8,1): error C2504: 'Pokemon': base class undefined
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(10,21): error C3646: 'ElectricRing': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(10,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(11,18): error C3646: 'PikaPunch': unknown override specifier
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(11,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pikachu.h(17,28): error C2061: syntax error: identifier 'Pokemon'
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.cpp(40,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   Generating Code...

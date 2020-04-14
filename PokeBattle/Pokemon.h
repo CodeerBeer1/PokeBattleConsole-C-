@@ -1,12 +1,10 @@
 #pragma once
+
 #include <iostream>
 
-#include "Pikachu.h"
-#include "Charmeleon.h"
 #include "EnergyType.h"
 #include "Weakness.h"
 #include "Resistance.h"
-#include "Attack.h"
 
 class Pokemon
 {
