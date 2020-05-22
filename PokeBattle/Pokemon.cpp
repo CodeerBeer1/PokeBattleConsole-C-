@@ -1,7 +1,12 @@
+
+// Dit is de source file van Pokemon.h.
+
 #include <iostream>
 #include <string>
 
 #include "Pokemon.h"
+
+// Pokemon properties worden door de constructor hieronder initialiseerd.
 
 Pokemon::Pokemon(
 
@@ -23,6 +28,8 @@ Pokemon::Pokemon(
 {
 }
 
+// Hieronder zijn alle Getter functions die waardes returnen van bepaalde properties.
+
 std::string Pokemon::GiveEnergyType() const
 {
 	return energyType.Name;
@@ -38,6 +45,8 @@ int Pokemon::GetHP()
 	return HealthPoints;
 }
 
+
+// Behalve ReduceHP(), dit is een Setter function, die veranderingen aan de property toebrengt in plaats van het uitgeven.
 void Pokemon::ReduceHP(int damage, int multiplier)
 {
 	HealthPoints = HealthPoints - (damage * multiplier); 

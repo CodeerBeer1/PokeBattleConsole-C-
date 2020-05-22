@@ -1,2 +1,7 @@
 ﻿  Charmeleon.cpp
+  Main.cpp
+  Pikachu.cpp
+  Pokemon.cpp
+C:\Users\Khize\source\repos\PokeBattleConsole-C++\PokeBattle\Pokemon.cpp(38,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
   PokeBattle.vcxproj -> C:\Users\Khize\source\repos\PokeBattleConsole-C++\x64\Debug\PokeBattle.exe

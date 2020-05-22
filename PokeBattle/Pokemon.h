@@ -1,3 +1,6 @@
+
+// Dit is de header bestand waar de 'Pokemon' gemaakt is.
+
 #pragma once
 
 #include <iostream>
@@ -6,8 +9,12 @@
 #include "Weakness.h"
 #include "Resistance.h"
 
+// Pokemon class heeft alle methods en properties die elke pokemon heeft.
+
 class Pokemon
 {
+
+	// Bij protected hebben alleen child-classes toegang.
 protected:
 	double HealthPoints;
 
@@ -16,7 +23,10 @@ protected:
 	Weakness weakness;
 	Resistance resistance;
 
+	// Bij public staan alle methods en properties die de "buitenwereld" mag zien.
 public:
+
+	// Constructor stelt waardes vast voor een pokemon.
 	Pokemon(
 
 		int weakness_multiplier,
@@ -29,9 +39,10 @@ public:
 		std::string resistance
 		);
 
-
+	// Status geeft aan of de pokemon nog uitgeschakeld is of niet.
 	bool Status = true;
 
+	// Hieronder staan allerlij Getters functions die de "buitenwereld" informatie geeft als het van toepassing is.
 	std::string GiveEnergyType() const;
 	std::string GiveName();
 
