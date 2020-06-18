@@ -33,8 +33,8 @@ void start()
 		// Tot die tijd blijven de Pokemons elkaar aanvallen.
 		if (Pikachu.Status)
 		{
-			std::cout << "Pikachu's Turn:\n" << Pikachu.GetHP() << " HP\n" << Pikachu.GiveElectricRing() << "\n" << Pikachu.GivePikaPunch() << std::endl;
-			Pikachu.AttackPokemon(Charmeleon);
+			std::cout << "Pikachu's Turn:\n" << Pikachu.GetHP() << " HP\n" << Pikachu.GiveElectricRing().Name << "\n" << Pikachu.GivePikaPunch().Name << std::endl;
+			Pikachu.AttackPokemon(Charmeleon, Pikachu.GiveElectricRing(), Pikachu.GivePikaPunch());
 			if (!Charmeleon.Status)
 			{
 				Flag = true;
@@ -43,8 +43,8 @@ void start()
 
 		if (Charmeleon.Status)
 		{
-			std::cout << "Charmeleon's Turn:\n" << Charmeleon.GetHP() << " HP\n" << Charmeleon.GiveHeadButt() << "\n" << Charmeleon.GiveFireFlare() << std::endl;
-			Charmeleon.AttackPokemon(Pikachu);
+			std::cout << "Charmeleon's Turn:\n" << Charmeleon.GetHP() << " HP\n" << Charmeleon.GiveHeadButt().Name << "\n" << Charmeleon.GiveFireFlare().Name << std::endl;
+			Charmeleon.AttackPokemon(Pikachu, Charmeleon.GiveHeadButt(), Charmeleon.GiveFireFlare());
 			if (!Pikachu.Status)
 			{
 				Flag = true;

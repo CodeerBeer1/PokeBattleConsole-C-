@@ -7,9 +7,6 @@
 #include "Pikachu.h"
 #include "Attack.h"
 
-// Om de lus te voorkomen dat de 2 header files steeds elkaar #include'en, is een kopie van die class hier gemaakt.
-class Pikachu;
-
 // Charmeleon class is een pokemon dus inherit het de pokemon class zodat het alles heeft wat een pokemon normaalgesproken heeft.
 
 class Charmeleon : public Pokemon
@@ -31,10 +28,7 @@ public:
 	);
 
 	// Getters die de naam van attacks returnen.
-	std::string GiveHeadButt() const;
-	std::string GiveFireFlare() const;
-
-	// Met dit function valt het de andere pokemon aan, en refereert de enemy als argument.
-	void AttackPokemon(Pikachu& enemy);
+	Attack GiveHeadButt() const;
+	Attack GiveFireFlare() const;
 
 };

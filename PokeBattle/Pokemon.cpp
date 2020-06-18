@@ -5,6 +5,7 @@
 #include <string>
 
 #include "Pokemon.h"
+#include "Attack.h"
 
 // Pokemon properties worden door de constructor hieronder initialiseerd.
 
@@ -60,4 +61,74 @@ Weakness Pokemon::GiveWeakness() const
 Resistance Pokemon::GiveResistance() const
 {
 	return resistance;
+}
+
+// Dit is de declaratie van de attack function.
+
+void Pokemon::AttackPokemon(Pokemon& enemy, Attack firstattack, Attack secondattack)
+{
+
+	// De pokemon valt aan indien het genoeg HP heeft.
+	if (HealthPoints > 0)
+	{
+		std::cout << "Attack: ";
+		std::string input;
+		std::cin >> input;
+
+		// De HP van de enemy word vermindert afhankelijk van de soort van de pokemon. Als de enemy er slecht tegen kan wordt het vermenigvuldigd-
+		// met de Weakness multiplier, zo niet, dan met de resistance multiplier.
+		if (input == firstattack.Name)
+		{
+
+			if (energyType.Name == enemy.GiveWeakness().Name)
+			{
+				enemy.ReduceHP(firstattack.Damage, enemy.GiveWeakness().Multiplier);
+			}
+
+			if (energyType.Name == enemy.GiveResistance().Name)
+			{
+				enemy.ReduceHP(firstattack.Damage, enemy.GiveResistance().Multiplier);
+			}
+
+			else
+			{
+				enemy.ReduceHP(firstattack.Damage, 0);
+			}
+		}
+
+		if (input == secondattack.Name)
+		{
+			if (energyType.Name == enemy.GiveWeakness().Name)
+			{
+				enemy.ReduceHP(secondattack.Damage, enemy.GiveWeakness().Multiplier);
+			}
+
+			if (energyType.Name == enemy.GiveResistance().Name)
+			{
+				enemy.ReduceHP(secondattack.Damage, enemy.GiveResistance().Multiplier);
+			}
+
+			else
+			{
+				enemy.ReduceHP(secondattack.Damage, 0);
+			}
+		}
+
+		// Als de invoer ongeldig is word de function opnieuw uitgevoerd.
+		else if (input != firstattack.Name && input != secondattack.Name)
+		{
+			std::cout << "Kies een van de bovenstaande attacks\n";
+			AttackPokemon(enemy, firstattack, secondattack);
+		}
+
+		std::cout << "\n";
+	}
+
+	// Als de enemy geen HP meer heeft, word zijn 'Status' als false toegewezen.
+
+	if (enemy.GetHP() <= 0)
+	{
+		enemy.Status = false;
+		std::cout << enemy.GiveName() << " fainted. " << Name << " is de winnaar!";
+	}
 }

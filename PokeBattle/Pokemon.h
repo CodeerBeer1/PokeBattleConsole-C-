@@ -8,6 +8,7 @@
 #include "EnergyType.h"
 #include "Weakness.h"
 #include "Resistance.h"
+#include "Attack.h"
 
 // Pokemon class heeft alle methods en properties die elke pokemon heeft.
 
@@ -51,5 +52,8 @@ public:
 
 	Weakness GiveWeakness() const;
 	Resistance GiveResistance() const;
+
+	// Met dit function valt het de andere pokemon aan, en refereert de enemy als argument en daarnaast worden zijn eigen attacks ook meegestuurd.
+	void AttackPokemon(Pokemon& enemy, Attack firstattack, Attack secondattack);
 
 };
